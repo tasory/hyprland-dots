@@ -1,0 +1,18 @@
+
+// My waybar config.jsonc ^^
+
+{
+	"position": "bottom", 
+   
+	"height": 30, 
+	"spacing": 4,
+
+	"modules-left": [ "hyprland/workspaces", "hyprland/window" ],
+	"modules-center": [ "clock" ],
+	"modules-right": [ "pipewire", "custom/music" ],
+
+	"custom/music": {
+		"exec": "bash ~/.config/waybar/music",
+		"on-click": "playerctl play-pause"
+	}
+}

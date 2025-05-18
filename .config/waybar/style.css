@@ -1,0 +1,43 @@
+
+/* My waybar style.css config ^^ */
+
+* {
+	font-family: "Figtree SemiBold";
+	font-size: 13px;
+}
+
+window#waybar {
+	background-color: #1e2030;
+	color: #cad3f5;
+}
+
+#workspaces {
+	margin-left: 5px;
+	color: #cad3f5;
+}
+
+#custom-music {
+	margin-right: 5px;
+}
+
+#workspaces button {
+	color: #cad3f5;
+}
+
+window#waybar.empty #window {
+	color: transparent;
+	border:	0mm solid transparent;
+	background-color: transparent;
+}
+
+#clock, #window, #workspaces, #pipewire, #custom-music {
+	background-color: #24273a;
+	border-radius:    5px;
+	border:		  0.3mm solid #363a4f;
+	border-color:	  #363a4f;
+	margin-top:	  5px;
+	margin-bottom:	  5px;
+	padding-left:     10px;
+	padding-right:    10px;
+}
+
